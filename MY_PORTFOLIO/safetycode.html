@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+            crossorigin="anonymous"
+        />
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="sample.css">
+    </head>
+ <body style="background:black">
+    
+    <div class="container rounded-3">
+        <div class="container bg-black ;" style="border-top-left-radius: 10px;border-top-right-radius: 10px;">
+            <div class="row display-flex">
+                <div class="col-sm-6">
+                    <div> 
+                        <!-- <span>Nandana</span> -->
+                     <img src="new.png">
+                    </div>
+                    <!-- <img src="desk.jpg" class="img1 img-responsive"> -->
+                    <div id="heading">
+                        <p><h6>Hey, this is me <span id="name">Nandana</span></h6> 
+                            Fullstack Developer
+                        </p>
+                    </div>
+
+            
+                </div>
+
+              <div class="col-sm-6">
+                 <div class="container">
+                    <img src="quest.jpg" class="img1 img-responsive rounded-1 mt-4">
+                 </div>
+             </div>
+            </div>
+        </div>
+
+        <div class="container bg-black">
+            <div class="row">
+                <div class="col-sm-8 mt-5">
+                    <div id="aboutme" style="height: 250px;">
+                        <h4><span style="color: rgb(21, 161, 208);">About me</span></h4>
+                        <p style="color: white;">
+                            To achieve on challenging career in organization that provides me an 
+                            opportunity to demonstrate my skills and improve my knowledge and be a
+                            part of team that words dynamically towards the goal of the organization.
+                        </p>
+                        <div>
+                            <a href="#" class="btn btn-info btn-sm mt-2">Download CV</a>
+                        </div>
+                    </div>
+                    
+
+
+                </div>
+                <div class="col-4">
+                        <!-- <img src="quest.jpg" class="myimg"> -->
+                </div>
+
+            </div>
+            
+        </div>
+
+      <div class="container  bg-black">
+          <div class="row">
+             <div class="col-sm-6">
+                <div class="card bg-transparent" style="width: 18rem;">
+                    <div class="card-body bg-success -2 bg-transparent">
+                      <button class="btn btn-sm btn-info mb-2" id="card-title" style="color: white;">Experience</button>
+                      <div id="items1" class="card bg-transparent">
+                        <p style="font-size: medium;">PYTHON FULLSTACK DEVELOPER INTERN</p>
+                        <p>Quest Innovative Solutions (2023-present)</p>
+                      </div>
+                      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                  </div>
+               
+
+              </div>
+              <script>
+                 $(Document).ready(function(){
+                   $("#card-title").click(function(){
+                      $("#items1").toggle(function(){
+                        
+                    });
+                   })
+                 });
+
+              </script> 
+
+              <div class="col-sm-6">
+                  <div class="card  bg-transparent" style="width: 18rem;">
+                     <div class="card-body">
+                                <button class="btn btn-info btn-sm mb-2" id="education"style="color: white;">Education</button> 
+                           <div id="items2">
+                                   <p>Bachelor of Technology in Computer Science and Engineering <br>
+                                    APJ Abdul Kalam Technological University 2018-2022<br><hr>
+                                   </p>
+                                   <p>
+                                    Higher Secondary <br>
+                                    Kerala Higher Secondary Board <br>
+                                    2016 <hr>
+                                   </p>
+                                   <p>
+                                    SSLC <br>
+                                    Bord of Public Examination <br>
+                                    2018 <hr>
+                                   </p>
+                            </div>            
+                    <script>
+                        $(Document).ready(function(){
+                            $("#education").click(function(){
+                                $("#items2").toggle(function(){
+                                    // $("#education").mouseleave(function(){
+                                    //     $("#items2").hide(function(){
+
+                                    //     })
+                                    // })
+                                    
+                                });
+                            })
+                         });
+
+                     </script> 
+                    
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                 </div>
+              </div>
+            </div> 
+
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h4 style="color:rgb(21, 161, 208) ;margin-top: 4;" >Technical Skills</h4>
+                    <div class="tech">
+                         <button class="btn btn-basic mt-4 mb-4" style="color: whitesmoke;background-color: black;border-color: red;" id="python">
+                            <i class="fa-brands fa-python"></i> <br>
+                            <h6>Python</h6>
+                         </button>
+                        
+                    </div>
+
+                    <script>
+                        var b1=document.getElementById("python");
+
+                        b1.onmouseenter=function(){
+                            b1.style.background="red"
+                            b1.style.color="black"
+                        }
+                        b1.onmouseleave=function(){
+                            b1.style.background=""
+                            b1.style.color="whitesmoke"
+                            
+                        }
+                    </script>
+
+                </div>
+
+                <div class="col-sm-6">
+                         
+                </div>
+
+            </div>
+
+        </div>
+        
+
+    </div>
+
+      
+ </body>
+</html>

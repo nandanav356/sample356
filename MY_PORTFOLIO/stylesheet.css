@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+ 
+body{
+   background-image:url(pictirur.jpg);
+   /* background-image: linear-gradient(0,0,0,0,7); */
+   /* display: 10; */
+   background-size: cover;
+   background-repeat: no-repeat;
+   /* background-position: center; */
+   /* background-attachment: fixed; */
+   /* height: 100vh; */
+   /* width: auto; */
+}
+
+.item1{
+    padding-left:20%;
+    color: black;
+
+
+}

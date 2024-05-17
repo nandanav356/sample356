@@ -1,0 +1,167 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* background-color: yellow; */
+    
+}
+body{
+background-color:black;
+}
+
+body img{
+    width: 30%;
+}
+a{
+    text-decoration: none;
+    color: rgb(59, 196, 209);
+    font-weight:100%;
+
+}
+nav ul{
+    display: flex;
+    gap: 2.5rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav li{
+    display: block;
+    transition: .2s;
+    text-decoration: none;
+}
+
+nav ul:hover li{
+    filter: blur(3px);
+    color: palevioletred;
+}
+nav ul li:hover{
+    filter: blur(0px);
+
+}
+
+#heading{
+    padding: 25%;
+    font-family:sans-serif;
+    font-weight:20px;
+    padding-left: 20%;
+    justify-content: flex-end;
+    color: white;
+    /* display:; */
+
+}
+#name{
+    color:rgb(21, 161, 208);
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.col-6{
+       /* flex: 100; */
+       max-width:100%;
+       /* padding: 0 4px; */
+       /* display: fluid; */
+       /* background-color: rgb(241, 225, 44); */
+       color: white;
+       
+       
+}
+
+
+
+.img1{
+    /* display: fluid;
+    margin-bottom: 15px; #comment
+    width: 50%;
+    object-fit: contain;
+    background-size: cover;
+    border-radius: 80%;  #comment
+    padding-top:40px; */
+    width: 100%;
+    
+}
+
+#aboutme{
+
+    width: 100%;
+    height: auto;
+}
+
+.myimg{
+    background-size: cover;
+    object-fit: contain;
+    width: 50%;
+    display: fluid;
+    justify-content: flex-end;
+}
+
+.card{
+  color: whitesmoke;
+  border-radius: 2% solid brown;
+  
+}
+
+.card ul li{
+    gap: 1.5rem;
+}   
+
+#card-title{
+    color: white;
+    padding-left: 5%;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.col-sm-6 .card-body .btn{
+    background: transparent;
+    font-weight: 700;
+
+     
+}
+
+/* .col-sm-6 .card-body .btn:hover{
+opacity: 0;
+} */
+
+
+#items1{
+    display: none;
+    color: white;
+    transition: 0s;
+}
+#items2{
+    display: none;
+    color: white;
+    transition: 0ms;
+    font-size: 13px;
+}
+
+.tech .btn{
+    width: 80px;
+    height: 70px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+@media(min-width){
+    
+    .col-sm-6{
+        width: 300px;
+        height: 300px;
+        color: white;
+    }
+    .nav ul li {
+       display: flex;
+       gap: 0.5rem;
+       
+    }
+    
+}
